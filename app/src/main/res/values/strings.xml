@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VPN Base</string>
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="sign_up"><u>Sign up</u></string>
+    <string name="log_in"><u>Log in</u></string>
+    <string name="need_help"><u>Need help?</u></string>
+</resources>
