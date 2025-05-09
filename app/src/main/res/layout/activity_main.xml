@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/theme"
+    >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/logo"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super\nVPN"
+            android:textColor="@color/white"
+            android:fontFamily="@font/raleway_m"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+        
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/worldd"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/left_to_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let’s Get"
+        android:fontFamily="@font/raleway_m"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:translationY="-95dp"/>
+
+    <TextView
+        android:id="@+id/started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Started!"
+        android:fontFamily="@font/raleway_m"
+        android:layout_centerInParent="true"
+        android:textColor="#c451c9"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:translationY="-40dp"
+        />
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:background="@drawable/two_color"
+        android:layout_below="@+id/started"
+        android:layout_centerHorizontal="true"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:fontFamily="@font/rl_light"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR SIGN IN WITH"
+        android:textColor="@color/white"
+        android:fontFamily="@font/rl_light"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn"
+        android:textSize="13dp"
+        android:layout_marginTop="35dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/em"
+        android:scaleType="center"
+        android:layout_below="@+id/txt1"
+        android:translationX="-25dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/imgg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/mbb1"
+        android:scaleType="center"
+        android:translationX="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txt1"/>
+
+    <View
+        android:id="@+id/viww"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:layout_below="@+id/imgg"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIDN'T HAVE ACCOUNT?"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viww"
+        android:textColor="@color/white"
+        android:fontFamily="@font/rl_light"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nSIGN UP NOW"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viww"
+        android:textColor="#ff1bb3"
+        android:fontFamily="@font/raleway_m"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
